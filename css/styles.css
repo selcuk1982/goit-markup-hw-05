@@ -543,6 +543,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
+  transform: translate(-50%, -50%)
 }
 
 .close-button {
@@ -595,6 +596,7 @@ body {
   margin-top: 8px;
   margin-bottom: 8px;
   margin-top: 4px;
+  
 }
 
 .label-grp {
@@ -630,17 +632,21 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
 }
+
 .modal-inp:focus {
   border-color: #4d5ae5;
 }
 
 .grp-svg {
   position: absolute;
-  top: 50%;
   left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+  top: 50%;
+}
+
+.group-two {
+  margin-bottom: 16px;
 }
 
 .text-tarea {
@@ -664,7 +670,7 @@ body {
 }
 
 .check-box {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .visually-hidden {
@@ -703,7 +709,7 @@ body {
 .link-a{
   color: #4D5AE5;
 }
-.inpat-check:checked .check-label .span-p {
+.inpat-check:checked + .check-label .span-p {
 
   border: none;
   fill: #f4f4fd;
@@ -724,6 +730,7 @@ body {
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 80px;
 }
 /*--Projenin Sonu*/
 /*--Bu Proje Selçuk ERGÜL tarafından yapılmıştır*/
